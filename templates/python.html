@@ -1,0 +1,18 @@
+{% extends "index.html" %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyResume</title>
+    <link href="{% static 'assets/img/logo.svg' %}" rel="icon">
+    
+</head>
+<body>
+    {% block content %}
+    <center>
+<img class="python" src="{% static 'assets/img/python.jpg' %}" alt="" height="80%" width="50%"></center>
+    {% endblock %}
+</body>
+</html>
